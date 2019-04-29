@@ -7,5 +7,6 @@ func main() {
 	//problem.Cubed()
 	//structure.TestBinaryTree()
 	//algorithm.TestQuicksort()
-	algorithm.TestMergesort()
+	//algorithm.TestMergesort()
+	algorithm.TestBubblesort()
 }
