@@ -10,9 +10,7 @@ func bubbleSort(arr []int) {
 		isSorted = true
 		for i := 0; i < lastUnsorted; i++ {
 			if arr[i] > arr[i+1] {
-				x, y := swap(arr[i], arr[i+1])
-				arr[i] = x
-				arr[i+1] = y
+				arr[i], arr[i+1] = swap(arr[i], arr[i+1])
 				isSorted = false
 			}
 		}
