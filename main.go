@@ -6,7 +6,7 @@ func main() {
 	//problem.FindIntersection()
 	//problem.Cubed()
 	//structure.TestBinaryTree()
-	//algorithm.TestQuicksort()
+	algorithm.TestQuicksort()
 	//algorithm.TestMergesort()
-	algorithm.TestBubblesort()
+	// algorithm.TestBubblesort()
 }

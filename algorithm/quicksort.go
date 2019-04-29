@@ -32,12 +32,19 @@ func partition(arr []int, low int, high int) int {
 	return i + 1
 }
 
+// Tail recursion with O(Log n) extra space
 func quicksort(arr []int, low int, high int) {
-	if low < high {
+	for low < high {
 		pivot := partition(arr, low, high)
 
-		quicksort(arr, low, pivot-1)
-		quicksort(arr, pivot+1, high)
+		// Always choose the smaller part to do the recursion
+		if pivot-low < high-pivot {
+			quicksort(arr, low, pivot-1)
+			low = pivot + 1 // iterate left part
+		} else {
+			quicksort(arr, pivot+1, high)
+			high = pivot - 1
+		}
 	}
 }
 
