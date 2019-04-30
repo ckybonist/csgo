@@ -1,4 +1,4 @@
-package structure
+package binarytree
 
 import "fmt"
 
@@ -103,7 +103,7 @@ func (root *Node) Print() {
 	root.dfs(print)
 }
 
-func TestBinaryTree() {
+func Test() {
 	tree := NewNode(5)
 	tree.Grow(4)
 	tree.Grow(1)

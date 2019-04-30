@@ -19,8 +19,8 @@ func bubbleSort(arr []int) {
 	}
 }
 
-// TestBubblesort is a driver function for bubble sort
-func TestBubblesort() {
+// Bubblesort is a driver function
+func Bubblesort() {
 	arr := []int{15, 3, 2, 7, 1, 4}
 
 	fmt.Println("Bubble Sort:")

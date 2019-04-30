@@ -107,7 +107,7 @@ func mergesort(arr []int) {
 	}
 }
 
-func TestMergesort() {
+func Mergesort() {
 	arr := []int{15, 3, 2, 7, 1, 4}
 
 	fmt.Println("Merge Sort:")

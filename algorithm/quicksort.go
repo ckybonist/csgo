@@ -48,8 +48,8 @@ func quicksort(arr []int, low int, high int) {
 	}
 }
 
-// TestQuicksort is a driver function
-func TestQuicksort() {
+// Quicksort is a driver function
+func Quicksort() {
 	fmt.Println("Quicksort:")
 	arr := []int{10, 80, 30, 90, 40, 50, 70}
 	fmt.Printf("  Before: %v\n", arr)
