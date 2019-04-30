@@ -2,18 +2,19 @@ package main
 
 import (
 	"github.com/ckybonist/csgo/problem"
-	"github.com/ckybonist/csgo/structure/linkedlist"
+	// "github.com/ckybonist/csgo/structure/linkedlist"
 )
 
 func main() {
 	/* Problem */
 	//problem.FindIntersection()
 	//problem.Cubed()
-	problem.Perm()
+	// problem.Perm()
+	problem.Fib(20)
 
 	/* Data structures */
 	// binarytree.Test()
-	linkedlist.Test()
+	// linkedlist.Test()
 
 	/* Algorithm */
 	// algorithm.Quicksort()
