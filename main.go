@@ -1,10 +1,8 @@
 package main
 
 import (
-	"github.com/ckybonist/cs-workout/problem"
+	"github.com/ckybonist/csgo/problem"
 )
-
-// "github.com/ckybonist/csgo/structure/linkedlist"
 
 func main() {
 	/* Problem */
