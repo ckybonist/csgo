@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/ckybonist/csgo/problem"
-	// "github.com/ckybonist/csgo/structure/linkedlist"
+	"github.com/ckybonist/cs-workout/problem"
 )
+
+// "github.com/ckybonist/csgo/structure/linkedlist"
 
 func main() {
 	/* Problem */
@@ -11,6 +12,7 @@ func main() {
 	//problem.Cubed()
 	// problem.Perm()
 	problem.Fib(20)
+	// problem.Dijkstra()
 
 	/* Data structures */
 	// binarytree.Test()
@@ -18,6 +20,6 @@ func main() {
 
 	/* Algorithm */
 	// algorithm.Quicksort()
-	//algorithm.Mergesort()
+	// algorithm.Mergesort()
 	// algorithm.Bubblesort()
 }
