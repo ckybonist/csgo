@@ -9,8 +9,8 @@ func main() {
 	//problem.FindIntersection()
 	//problem.Cubed()
 	// problem.Perm()
-	problem.Fib(20)
-	// problem.Dijkstra()
+	//problem.Fib(20)
+	problem.Dijkstra()
 
 	/* Data structures */
 	// binarytree.Test()

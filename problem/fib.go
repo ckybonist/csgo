@@ -3,10 +3,10 @@ package problem
 import "fmt"
 
 func memoFib(n int, memory map[int]int) int {
-	if v, ok := memory[n]; ok{
+	if v, ok := memory[n]; ok {
 		return v
 	}
-	memory[n] = memoFib(n - 1, memory) + memoFib(n - 2, memory)
+	memory[n] = memoFib(n-1, memory) + memoFib(n-2, memory)
 
 	return memory[n]
 }
@@ -21,20 +21,20 @@ func tailFib(n int, prev int, curr int) int {
 	}
 
 	fmt.Printf("%d ", curr)
-	
-	return tailFib(n - 1, curr, prev + curr)
+
+	return tailFib(n-1, curr, prev+curr)
 }
 
 func Fib(n int) int {
-	// num := tailFib(n, 0, 1)
-	// fmt.Printf("[%d]\n", num)
+	num := tailFib(n, 0, 1)
+	fmt.Printf("[%d]\n", num)
 
-	memory := map[int]int{
-		0: 0,
-		1: 1,
-		2: 1,
-	}
-	num := memoFib(n, memory)
+	// memory := map[int]int{
+	// 	0: 0,
+	// 	1: 1,
+	// 	2: 1,
+	// }
+	// num := memoFib(n, memory)
 
 	return num
 }
